@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    background-image: url("../images/donation4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+}
+.header h1{
+    color: rgb(243, 243, 243);
+    padding-top: 50px;
+    
+}
+.section-para{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: rgb(137, 139, 141);
+    font-size: 12px;
+}
+
+.btn{
+    color: rgb(247, 239, 229);
+    background-color: hwb(0 22% 4%);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.donate-today{
+    text-align: center;
+    padding: 80px 250px;
+}
+.section-title{
+    font-weight: 800;
+    font-size: 40px;
+}
+.donate-am{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 10px;
+}
+.ammount-item{
+    border-radius: 3px;
+    background-color: rgba(161, 158, 158, 0.1);
+    padding: 30px 15px;
+
+}
+hr{
+    margin-top: 3px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+/* donate plan css */
+
+.donate-plan-dc{
+    display: flex;
+    gap: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.dp-child-container{
+    background-color: rgba(79, 246, 249, 0.2);
+    border-radius: 4px;
+    height: 250px;
+    width: 300px;
+    text-align: left;
+}
+.donate-plan{
+    padding: 0 70px;
+    text-align: center;
+}
+.dp-child-container img{
+    height: 10%;
+    widows: 20%;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.dp-child-container h4{
+    padding-left: 20px;
+    margin-top: 15px;
+
+}
+.dp-child-container p{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+/* depends section */
+.depends{
+    display: flex;
+    gap: 30px;
+    margin: 10%;
+    align-items: center;
+}
+.depends-text{
+    width: 50%;
+}
+.depends-text h2{
+    padding-top: 40px;
+}
+.depends-img{
+    width: 50%;
+}
+.depends-img img{
+    height: 350px;
+    width: 320px;
+}
+
+/* survive section start  */
+.survive{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 0 10%;
+}
+.survive-text{
+    width: 50%;
+}
+.survive-img{
+    width: 100%;
+}
+/* .survive-img img{
+    
+} */
+.update{
+    align-items: center;
+    text-align: center;
+}
+.update h2{
+    margin-top: 60px;
+}
+.update p{
+    margin-bottom: 50px;
+}
+.subscribe-email{
+    text-align: center;
+    align-content: center;
+    height: 200px;
+    width: 1000px;
+    background-color: hsla(0, 71%, 71%, 0.2);
+    margin: 0 auto;
+}
+input, button{
+    margin-top: 95px;
+    border: none;
+}
+input{
+    padding: 10px;
+}
+
+/* footer start  */
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(14, 6, 33);
+    margin-top: 100px;
+    text-align: center;
+}
+.footer h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgb(249, 72, 211);
+    padding-top: 20px;
+    font-size: 30px;
+}
+.footer p{
+    color: aliceblue;
+    font-size: 12px;
+}
